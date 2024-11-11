@@ -1,0 +1,122 @@
+export default [
+    {
+        id: 1,
+        dictionary_id: 1,
+        word: "Hello",
+        definition1: "안녕하세요",
+        definition2: "안녕",
+        definition3: "인사",
+        createdAt: "2024-09-20T10:00:00Z", // 2024년 9월 1일
+        unclearCount: 1, // 0부터 5까지 랜덤 숫자
+        status: true,
+        favorite: false,
+    },
+    {
+        id: 2,
+        dictionary_id: 2,
+        word: "Thank you",
+        definition1: "감사합니다",
+        definition2: "고맙습니다",
+        definition3: "감사의 인사",
+        createdAt: "2024-09-20T15:30:00Z", // 2024년 9월 5일
+        unclearCount: 4,
+        status: true,
+        favorite: true,
+    },
+    {
+        id: 3,
+        dictionary_id: 1,
+        word: "Please",
+        definition1: "제발",
+        definition2: "부탁합니다",
+        definition3: "요청할 때",
+        createdAt: "2024-09-20T12:45:00Z", // 2024년 9월 10일
+        unclearCount: 4,
+        status: false,
+        favorite: false,
+    },
+    {
+        id: 4,
+        dictionary_id: 3,
+        word: "Goodbye",
+        definition1: "안녕히 가세요",
+        definition2: "작별 인사",
+        definition3: "또 만나요",
+        createdAt: "2024-09-20T09:15:00Z", // 2024년 9월 15일
+        unclearCount: 0,
+        status: true,
+        favorite: true,
+    },
+    {
+        id: 5,
+        dictionary_id: 2,
+        word: "Yes",
+        definition1: "네",
+        definition2: "응",
+        definition3: "확인",
+        createdAt: "2024-09-20T14:30:00Z", // 2024년 9월 20일
+        unclearCount: 0,
+        status: true,
+        favorite: false,
+    },
+    {
+        id: 6,
+        dictionary_id: 1,
+        word: "No",
+        definition1: "아니요",
+        definition2: "거부",
+        definition3: "부정",
+        createdAt: "2024-09-25T11:00:00Z", // 2024년 9월 25일
+        unclearCount: 0,
+        status: false,
+        favorite: true,
+    },
+    {
+        id: 7,
+        dictionary_id: 3,
+        word: "Welcome",
+        definition1: "환영합니다",
+        definition2: "웰컴",
+        definition3: "들어오세요",
+        createdAt: "2024-09-30T13:15:00Z", // 2024년 9월 28일
+        unclearCount: 0,
+        status: true,
+        favorite: false,
+    },
+    {
+        id: 8,
+        dictionary_id: 2,
+        word: "How are you?",
+        definition1: "어떻게 지내세요?",
+        definition2: "괜찮아요?",
+        definition3: "상태가 어때요?",
+        createdAt: "2024-09-30T16:00:00Z", // 2024년 9월 30일
+        unclearCount: 0,
+        status: true,
+        favorite: true,
+    },
+    {
+        id: 9,
+        dictionary_id: 1,
+        word: "Excuse me",
+        definition1: "실례합니다",
+        definition2: "죄송합니다",
+        definition3: "이해해 주세요",
+        createdAt: "2024-10-04T08:30:00Z", // 2024년 10월 2일
+        unclearCount: 4,
+        status: false,
+        favorite: false,
+    },
+    {
+        id: 10,
+        dictionary_id: 3,
+        word: "Congratulations",
+        definition1: "축하합니다",
+        definition2: "축하의 인사",
+        definition3: "성공을 기원합니다",
+        createdAt: "2024-10-04T19:45:00Z", // 2024년 10월 4일
+        unclearCount: 4,
+        status: true,
+        favorite: false,
+    },
+];
